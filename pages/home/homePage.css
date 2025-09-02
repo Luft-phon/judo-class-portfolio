@@ -1,0 +1,151 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 95px;
+    padding: 0 30px;
+}
+
+#landing {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    border-bottom: 1px solid black;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.title h1 {
+    font-size: 5em;
+    font-family: var(--heading);
+    font-style: normal;
+    font-weight: 600;
+}
+
+.title h3 {
+    font-size: 1em;
+    font-family: var(--heading);
+    font-weight: 600;
+    color: var(--blue);
+}
+.img-cover {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;              /* chặn tràn khi zoom */
+  border-radius: 10px;
+  border: 1px solid var(--black);
+}
+
+/* áp dụng cho chính thẻ img */
+.img-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;             /* hoặc 'contain' tùy nhu cầu */
+  transition: transform 0.5s ease;  /* transition nằm trên img */
+}
+
+/* hover container để zoom ảnh */
+.img-cover:hover img {
+  transform: scale(1.2);
+}
+
+
+.content {
+    font-family: var(--content);
+}
+
+/* section class */
+#info {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+}
+
+.class-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.class-content-left {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+}
+
+.class-content-left p {
+    font-family: var(--content);
+}
+
+.class-content-left h3 {
+    font-family: var(--heading);
+    font-size: 2em;
+}
+
+
+.class-imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.class-imgs-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+}
+
+.class-imgs-2 {
+    display: flex;
+    gap: 40px;
+}
+
+/* getting start  */
+#getting-start {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+}
+
+.getting-started-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.getting-started-title h1 {
+    font-family: var(--heading);
+    font-size: 2em;
+}
+
+.getting-started-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 768px) {
+    .class-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .class-imgs-2,
+    .class-imgs-1 {
+        display: flex;
+        flex-direction: column;
+    }
+}

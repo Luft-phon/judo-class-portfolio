@@ -1,0 +1,7 @@
+.gettingStart-card {
+    height: 300px;
+  width: 100%;
+  overflow: hidden;              /* chặn tràn khi zoom */
+  border-radius: 10px;
+  border: 1px solid var(--black);
+}

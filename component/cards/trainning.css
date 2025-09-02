@@ -1,0 +1,55 @@
+.card {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid var(--black);
+    background-color: var(--blue);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.customer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer-name {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: var(--content);
+    color: white;
+    font-style: italic;
+}
+
+.training-btn {
+    color: black;
+    font-family: var(--content);
+    border: 1px solid;
+    padding: 0 10px;
+    border-radius: 20px;
+    background-color: var(--yellow);
+    cursor: pointer;
+}
+
+.training-btn:hover {
+    background-color: #f4c711;
+}
+
+.card-title {
+    font-family: var(--heading);
+    font-weight: 700;
+    font-size: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .card {
+        display: none;
+    }
+}
