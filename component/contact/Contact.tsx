@@ -4,7 +4,7 @@ import "./contact.css";
 interface FormData {
   fullname: string;
   email: string;
-  title: string;
+  phone: string;
   message: string;
 }
 
@@ -12,7 +12,7 @@ function ContactForm() {
   const [formData, setFormData] = useState<FormData>({
     fullname: "",
     email: "",
-    title: "",
+    phone: "",
     message: "",
   });
 
@@ -20,10 +20,29 @@ function ContactForm() {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // handle form submission here (e.g., send to API)
-    console.log(formData);
+    try {
+      const res = await fetch("/api/send", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await res.json();
+      if (!result.ok) throw new Error("Unable to call API")
+      if (result.ok) {
+        setFormData({
+          fullname: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+      }
+    } catch (error) {
+      console.error(error);
+    }
+
   };
 
   return (
@@ -54,10 +73,10 @@ function ContactForm() {
         <label style={{ color: "var(--black)" }}>Số điện thoại</label>
         <input
           type="tel"
-          name="title"
+          name="phone"
           placeholder="+84 234 23432"
           required
-          value={formData.title}
+          value={formData.phone}
           onChange={handleChange}
         />
       </div>
