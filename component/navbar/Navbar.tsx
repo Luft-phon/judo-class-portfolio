@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className="hidden md:flex">
           <ul className="flex items-center text-[var(--light-smoke)]">
             <li className="ml-10 text-xl">
-              <Link href="/about" className="hover:text-[var(--black)]">
+              <Link href="/" className="hover:text-[var(--black)]">
                 Trang chủ
               </Link>
             </li>
@@ -48,7 +48,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="mx-10 text-xl">
-              <Link href="/about" className="hover:text-[var(--black)]">
+              <Link href="/contact" className="hover:text-[var(--black)]">
                 Liên hệ
               </Link>
             </li>
@@ -89,23 +89,23 @@ export default function Navbar() {
           <div className="py-4">
             <ul className="flex flex-col border-y">
               <li className="py-4">
-                <Link href="/about" onClick={handleNav}>
-                  Why Us
+                <Link href="/" onClick={handleNav}>
+                  Trang chủ
                 </Link>
               </li>
               <li className="py-4">
                 <Link href="/about" onClick={handleNav}>
-                  Contact Us
+                  Về chúng tôi
                 </Link>
               </li>
               <li className="py-4">
                 <Link href="/about" onClick={handleNav}>
-                  Blog
+                  Huấn luyện
                 </Link>
               </li>
               <li className="py-4">
-                <Link href="/about" onClick={handleNav}>
-                  Our Service
+                <Link href="/contact" onClick={handleNav}>
+                  Liên hệ
                 </Link>
               </li>
             </ul>
@@ -113,7 +113,7 @@ export default function Navbar() {
 
           <div className="pt-5">
             <div className="flex justify-center gap-10">
-              <Link href="/about" aria-label="Facebook">
+              <Link href="https://www.facebook.com/JudoQuanKhu7/" aria-label="Facebook">
                 <FaFacebook size={30} />
               </Link>
               <Link href="/about" aria-label="Instagram">
