@@ -9,6 +9,7 @@ import { Fade } from "react-awesome-reveal";
 import GettingStart from "@/component/cards/GettingStart";
 import { FaMessage } from "react-icons/fa6";
 import { FaComments, FaRocket, FaStar, FaUserFriends } from "react-icons/fa";
+import { AccordionFaqs } from "@/component/accordion/Faqs";
 export default function HomePage() {
   const concept = [
     { content: "Lấy cảm hứng từ tinh hoa của võ thuật, Judo Quân Khu 7 là một điểm đến tuyệt vời để gặp gỡ, học hỏi thông qua võ thuật. Với sứ mệnh 'Rèn Luyện - Học Tập - Giải Trí', địa điểm này không chỉ phù hợp với mọi độ tuổi và trình độ tập luyện mà còn tuân thủ các tiêu chuẩn an toàn của Liên Đoàn Judo Việt Nam." }
@@ -96,7 +97,7 @@ export default function HomePage() {
           {/* làm về get start today giống web bên karate */}
           <div className="getting-started-title">
             <h1 className="uppercase">Bắt đầu hôm nay</h1>
-            <p className="w-full md:w-1/2">Khi bước vào phòng tập Judo, bạn sẽ cảm nhận được sự đầy đủ, tiện nghi mà võ đường mang lại. Những chiếc áo Judo, hoặc "Gi", không chỉ là một trang phục mà còn là biểu tượng của sự kỷ luật và tôn trọng.</p>
+            <p className="text-[var(--light-smoke)]">Khi bước vào phòng tập Judo, bạn sẽ cảm nhận được sự đầy đủ, tiện nghi mà võ đường mang lại.</p>
           </div>
           {/* <section className="mx-auto max-w-6xl px-4 py-16"> */}
           <Fade duration={500}>
@@ -180,20 +181,30 @@ export default function HomePage() {
       li > div > span { display: none; } /* ẩn dot lớn ở mobile */
     }
   `}</style>
-  <br/>
-            <Image
-              src={Fee}
-              alt="Group"
-              priority
-              className="border-1 border-black rounded-lg"
-            />
+          <br />
+          {/*  */}
         </section>
 
         <section>
           {/* khách hàng đánh giá */}
         </section>
-        <section>
+        <section id="faqs">
           {/* câu hỏi thường gặp  */}
+          <div className="getting-started-title">
+            <p className="text-[var(--dark-smoke)]">FAQ</p>
+            <h1 className="uppercase flex">Câu hỏi thường gặp</h1>
+            <p className="text-[var(--light-smoke)]">Tìm câu trả lời cho các câu hỏi phổ biến về phòng tập và buổi tập luyện của bọn mình.</p>
+          </div>
+          <div className="flex justify-center">
+            <AccordionFaqs />
+          </div>
+
+          <Image
+            src={Fee}
+            alt="Group"
+            priority
+            className="border-1 border-black rounded-lg"
+          />
         </section>
       </main>
     </>
