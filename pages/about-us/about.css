@@ -17,6 +17,7 @@
     gap: 20px;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .about-card {
@@ -26,4 +27,14 @@
 .about-card:hover {
     transform: scale(1.05);
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .about-title {
+        padding: 0;
+    }
+    .about-cards {
+        display: flex;
+        flex-direction: column;
+    }
 }
