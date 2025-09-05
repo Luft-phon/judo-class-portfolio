@@ -75,9 +75,9 @@ export default function HomePage() {
 
             <div className="class-imgs-2">
               {photo.map((item, idx) => (
-                <div className="img-cover">
+                <div className="img-cover" key={idx}>
                   <Image
-                    key={idx}
+                    
                     src={`/${item.value}`}
                     alt="Group"
                     priority
