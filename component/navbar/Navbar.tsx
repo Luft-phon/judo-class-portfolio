@@ -99,7 +99,7 @@ export default function Navbar() {
                 </Link>
               </li>
               <li className="py-4">
-                <Link href="/about" onClick={handleNav}>
+                <Link href="/training" onClick={handleNav}>
                   Tập luyện
                 </Link>
               </li>
