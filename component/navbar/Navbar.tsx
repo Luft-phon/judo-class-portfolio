@@ -38,15 +38,15 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="ml-10 text-xl">
-              <Link href="/about" className="hover:text-[var(--black)]">
-                Huấn Luyện
+              <Link href="/training" className="hover:text-[var(--black)]">
+                Tập Luyện
               </Link>
             </li>
-            <li className="ml-10 text-xl">
+            {/* <li className="ml-10 text-xl">
               <Link href="/about" className="hover:text-[var(--black)]">
                 Blog
               </Link>
-            </li>
+            </li> */}
             <li className="mx-10 text-xl">
               <Link href="/contact" className="hover:text-[var(--black)]">
                 Liên hệ
@@ -100,7 +100,7 @@ export default function Navbar() {
               </li>
               <li className="py-4">
                 <Link href="/about" onClick={handleNav}>
-                  Huấn luyện
+                  Tập luyện
                 </Link>
               </li>
               <li className="py-4">

@@ -1,0 +1,113 @@
+.about-container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    cursor: pointer;
+}
+.about-title p{
+    font-family: var(--content);
+}
+.about-title {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.class-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.class-content-left {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+}
+
+.class-content-left p {
+    font-family: var(--content);
+}
+
+.class-content-left h3 {
+    font-family: var(--heading);
+    font-size: 2em;
+}
+
+.img-cover {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;              /* chặn tràn khi zoom */
+  border-radius: 10px;
+  border: 1px solid var(--black);
+}
+
+/* áp dụng cho chính thẻ img */
+.img-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;             /* hoặc 'contain' tùy nhu cầu */
+  transition: transform 0.5s ease;  /* transition nằm trên img */
+}
+.img-cover:hover img {
+  transform: scale(1.2);
+}
+
+.class-imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    padding-top: 40px;
+}
+
+.class-imgs-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.getting-started-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.getting-started-title h1 {
+    font-family: var(--heading);
+    font-size: 2em;
+}
+.getting-started-title p{
+    font-family: var(--content);
+}
+/* Loop */
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+    .class-content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .class-imgs-2,
+    .class-imgs-1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
