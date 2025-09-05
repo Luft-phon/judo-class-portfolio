@@ -72,9 +72,8 @@ export default function TrainingPage() {
                 </div>
                 <div className="class-imgs-2">
                     {photo.map((item, idx) => (
-                        <div className="img-cover">
+                        <div className="img-cover"key={idx}>
                             <Image
-                                key={idx}
                                 src={`/activities/${item.value}`}
                                 alt="Group"
                                 priority
@@ -94,9 +93,8 @@ export default function TrainingPage() {
                 </div>
                 <div className="class-imgs-2">
                     {photoEnd.map((item, idx) => (
-                        <div className="img-cover">
+                        <div className="img-cover" key={idx}>
                             <Image
-                                key={idx}
                                 src={`/activities/${item.value}`}
                                 alt="Group"
                                 priority
