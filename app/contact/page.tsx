@@ -8,6 +8,7 @@ import { FaClock, FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa"
 import ContactPage from "@/pages/contact/ContactPage";
 
 export default function Contact() {
+    
     return (
         <>
             <Navbar />

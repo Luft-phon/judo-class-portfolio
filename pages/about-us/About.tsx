@@ -12,19 +12,19 @@ export default function AboutPage() {
         {
             name: "Thanh Loan",
             role: "Huấn Luyện Viên",
-            description: "Trong giai đoạn thi đấu chuyên nghiệp, cô đã xuất sắc đoạt nhiều thành tích cao và giành được một suất trong đội tuyển quốc gia Việt Nam. Ấn tượng nhất là tấm HCB ở giải đấu quốc tế danh giá là Sea Game 19.",
+            description: "Thanh Loan bắt đầu làm quen và tập Judo từ rất sớm nhờ một người thầy có huyền đai môn võ này. Trong giai đoạn thi đấu chuyên nghiệp, cô đã xuất sắc đoạt nhiều thành tích cao và giành được một suất trong đội tuyển quốc gia Việt Nam. Ấn tượng nhất là tấm HCB ở giải đấu quốc tế danh giá là Sea Game 19.",
             imageUrl: "/coaches/coLoan.jpg",
         },
         {
             name: "Trần Nguyễn Nhật Hào",
             role: "Huấn Luyện Viên",
-            description: "Former co-founder of Opendoor. Early staff at Spotify and Clearbit.",
+            description: "Với kinh nghiệm huấn luyện judo tại Câu Lạc Bộ DojoHouse từ cơ bản đến nâng cao và với kinh nghiệm trong suốt quá trình luyện tập và huấn luyện. Mặc dù trẻ tuổi nhưng với tâm huyết và sự nhiệt huyết Hào luôn đồng hành cùng câu lạc bộ, phát triển và truyền lửa cho các thành viên.",
             imageUrl: "/coaches/hao.jpg",
         },
         {
             name: "Ngô Nguyễn Thanh Phong",
-            role: "Học Viên",
-            description: "Former co-founder of Opendoor. Early staff at Spotify and Clearbit.",
+            role: "Học Viên & Admin fanpage",
+            description: "Một học viên đã theo tập ở võ đường Quân Khu 7 trong khoảng thời gian bằng nửa tuổi đời của bạn. Phong có kinh nghiệm thi đấu nhiều giải lớn nhỏ trong nước và gặt hái nhiều thành tích cao cho đơn vị. Chàng trai trẻ luôn nhiệt huyết trong việc giúp đỡ các bạn mới cũng như quảng bá cho Judo Quân Khu 7",
             imageUrl: "/Cover/avatar.jpg",
         },
     ]
