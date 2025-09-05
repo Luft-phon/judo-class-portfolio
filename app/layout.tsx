@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Archivo , Poppins, Bebas_Neue, Bungee} from "next/font/google";
 import "./globals.css";
+import { Analytics } from '@vercel/analytics/next';
 // Khai báo font
 const poppins = Poppins({
   subsets: ["latin"],
@@ -45,6 +46,7 @@ export default function RootLayout({
         className={`${poppins.variable} ${bebas.variable} ${archivo_init.variable} antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
