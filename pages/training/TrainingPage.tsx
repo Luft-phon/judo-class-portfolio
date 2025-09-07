@@ -68,7 +68,7 @@ export default function TrainingPage() {
             <div className="class-imgs">
                 <div className="getting-started-title">
                     <h1 className="uppercase">Cao điểm</h1>
-                    <p className="text-[var(--light-smoke)] w-150">{class_content[1].content}</p>
+                    <p className="text-[var(--light-smoke)]">{class_content[1].content}</p>
                 </div>
                 <div className="class-imgs-2">
                     {photo.map((item, idx) => (
@@ -89,7 +89,7 @@ export default function TrainingPage() {
             <div className="class-imgs">
                 <div className="getting-started-title">
                     <h1 className="uppercase">Kết thúc</h1>
-                    <p className="text-[var(--light-smoke)] w-150">{class_content[2].content}</p>
+                    <p className="text-[var(--light-smoke)]">{class_content[2].content}</p>
                 </div>
                 <div className="class-imgs-2">
                     {photoEnd.map((item, idx) => (

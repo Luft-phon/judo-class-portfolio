@@ -33,3 +33,4 @@ npm run dev
 | Navy          | ![[#00438A]](https://singlecolorimage.com/get/00438A/15x15) `#12223d` | Main heading color              | `var(--navy)`          |
 | Yellow    | ![[#FFD327]](https://singlecolorimage.com/get/FFD327/15x15) `#233450` | Secondary text color | `var(--yellow)`    |
 | Light Smoke    | ![[#8992ac]](https://singlecolorimage.com/get/64ff93/15x15) `#64ff93` | Subheading text color                       | `var(--light-smoke)`    |
+
