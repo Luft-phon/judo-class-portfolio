@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { Archivo , Poppins, Bebas_Neue, Bungee, Outfit} from "next/font/google";
+import { Archivo, Poppins, Bebas_Neue, Outfit } from "next/font/google";
 import "../globals.css";
 import { Analytics } from '@vercel/analytics/next';
 import Preloader from "../../component/preloader/Preloader";
-import {NextIntlClientProvider} from 'next-intl';
-import {getMessages} from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages } from 'next-intl/server';
 // Khai báo font
 const poppins = Poppins({
   subsets: ["latin"],
@@ -49,13 +49,13 @@ export default async function RootLayout({
   params
 }: {
   children: React.ReactNode;
-  params: {locale: string} | Promise<{locale: string}>;
+  params: { locale: string } | Promise<{ locale: string }>;
 }) {
   const resolvedParams = await params;
   const messages = await getMessages();
 
   return (
-    <html lang={resolvedParams.locale}> 
+    <html lang={resolvedParams.locale}>
       <body
         className={`${poppins.variable} ${bebas.variable} ${archivo_init.variable} ${outfit.variable} antialiased`}
       >
