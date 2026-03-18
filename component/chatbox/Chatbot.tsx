@@ -1,3 +1,4 @@
+"use client";
 import { useEffect } from "react";
 
 // Khai báo global cho class bên ngoài (do script chèn vào window)

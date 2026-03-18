@@ -34,7 +34,7 @@ export async function POST(req: Request) {
     }
 
     return NextResponse.json({ ok: true, id: sent?.id });
-  } catch (err) {
-    return NextResponse.json({ ok: false}, { status: 500 });
+  } catch {
+    return NextResponse.json({ ok: false }, { status: 500 });
   }
 }
