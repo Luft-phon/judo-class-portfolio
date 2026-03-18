@@ -1,9 +1,9 @@
-import { FaArrowRight, FaFacebook, FaGoogle, FaInstagram, FaLocationArrow, FaMap, FaTwitter } from "react-icons/fa"
+import { FaArrowRight, FaFacebook, FaGoogle } from "react-icons/fa"
 import "../footer/footer.css"
 import { Link } from "../../i18n/routing";
 import Image from "next/image"
 import Logo from "../../public/logo.png";
-import { FaLocationPin } from "react-icons/fa6";
+
 function Footer() {
     const year = new Date().getFullYear();
     return (

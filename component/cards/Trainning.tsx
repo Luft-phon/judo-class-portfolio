@@ -1,6 +1,6 @@
-import { AvatarDemo } from "./Avatar";
+
 import "../cards/trainning.css"
-import { FaArrowLeft, FaArrowUp, FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import { Link } from "../../i18n/routing";
 function TrainningCard() {
     return (

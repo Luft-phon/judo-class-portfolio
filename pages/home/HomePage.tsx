@@ -6,9 +6,9 @@ import "../home/homePage.css"
 import { AccordionClass } from "@/component/accordion/Accordion";
 import TrainningCard from "@/component/cards/Trainning";
 import { Fade } from "react-awesome-reveal";
-import GettingStart from "@/component/cards/GettingStart";
+
 import { FaMessage } from "react-icons/fa6";
-import { FaComments, FaRocket, FaStar, FaUserFriends } from "react-icons/fa";
+import { FaRocket, FaStar, FaUserFriends } from "react-icons/fa";
 import { AccordionFaqs } from "@/component/accordion/Faqs";
 import { useTranslations } from "next-intl";
 export default function HomePage() {
