@@ -1,0 +1,120 @@
+{
+  "Navbar": {
+    "home": "Trang chủ",
+    "about": "Về chúng tôi",
+    "training": "Tập luyện",
+    "contact": "Liên hệ"
+  },
+  "Homepage": {
+    "hero": {
+      "title": "Câu lạc bộ Judo Quân Khu 7",
+      "concept": "Lấy cảm hứng từ tinh hoa của võ thuật, Judo Quân Khu 7 là một điểm đến tuyệt vời để gặp gỡ, học hỏi thông qua võ thuật. Với sứ mệnh 'Rèn Luyện - Học Tập - Giải Trí', địa điểm này không chỉ phù hợp với mọi độ tuổi và trình độ tập luyện mà còn tuân thủ các tiêu chuẩn an toàn của Liên Đoàn Judo Việt Nam.",
+      "class_content": "Lấy cảm hứng từ tinh hoa của võ thuật, Judo Quân Khu 7 là một điểm đến tuyệt vời để gặp gỡ, học hỏi thông qua võ thuật. Với sứ mệnh 'Rèn Luyện - Học Tập - Giải Trí', địa điểm này không chỉ phù hợp với mọi độ tuổi và trình độ tập luyện mà còn tuân thủ các tiêu chuẩn an toàn của Liên Đoàn Judo Việt Nam.",
+      "class_title": "Lớp Chúng Tôi"
+    },
+    "schedule": {
+      "title": "Lịch tập",
+      "content": "Lớp tụi mình hoạt động mỗi tối thứ 3-5-7 từ 18h30-20h30 hàng tuần và sẽ được tập luyện cùng với mọi người."
+    },
+    "fee": {
+      "title": "Học Phí",
+      "content": "Học phí bên mình là 500k/tháng bạn nhé sẽ bao gồm: \n☑️ Huấn luyện cơ bản cho người mới bắt đầu. \n☑️ Tập luyện và giảng dạy trực tiếp bởi HLV chuyên nghiệp có bằng cấp HLV quốc gia.\n☑️ Có trợ giảng hỗ trợ nhiệt tình trong suốt buổi tập.\n☑️ Có cơ hội tham gia các giải đấu và giao lưu với các đối thủ từ các quận, thành phố do ban ngành tổ chức."
+    },
+    "uniform": {
+      "title": "Võ Phục",
+      "content": "Võ phục sẽ bao gồm 2 loại là vải thường và vải gai cao cấp: \n💰 Giá dao động từ 300-400k đối với vải thường dành cho người mới nhập môn.\n💰 Giá dao động từ 800-1tr6 đối với vải gai cao cấp dành cho người tập nâng cao."
+    },
+    "Method": {
+      "title": "Bắt đầu hôm nay",
+      "content": "Khi bước vào phòng tập Judo, bạn sẽ cảm nhận được sự đầy đủ, tiện nghi mà võ đường mang lại.",
+      "step1": {
+        "title": "Đến võ đường",
+        "content": "Hãy đến võ đường Quân Khu 7 để tham quan phòng tập và cũng như trải nghiệm buổi tập.\n📌 Video hướng dẫn đường vào sân mình có ghim ở fanpage trên Facebook bạn nhé"
+      },
+      "step2": {
+        "title": "Gặp huấn luyện viên",
+        "content": "Trò chuyện với thầy cô để được giới thiệu và tư vấn những hoạt động ở Judo Quân Khu 7 cũng như chi phí sinh hoạt ở đây nhé."
+      },
+      "step3": {
+        "title": "Tham gia lớp học",
+        "content": "Sau khi đã tìm hiểu và cảm thấy phù hợp, bạn có thể đăng ký tham gia lớp học ngay lập tức."
+      },
+      "step4": {
+        "title": "Theo dõi Fanpage",
+        "content": "Bước cuối cùng đặc biệt quan trọng nè. ❤️ \n Hãy vào Fanpage trên Facebook của bọn mình để theo dõi và không bỏ lỡ bất kì hoạt động nào ở võ đường Judo Quân Khu 7 nhé."
+      }
+    },
+    "faqs": {
+      "title": "Câu hỏi thường gặp",
+      "content": "Tìm câu trả lời cho các câu hỏi phổ biến về phòng tập và buổi tập luyện của bọn mình.",
+      "question1": {
+        "title": "Tôi có cần kinh nghiệm tập võ để tham gia lớp Judo không?",
+        "content": "Không cần có kinh nghiệm trước đây. Lớp phong trào Judo Quân Khu 7 chủ yếu tập luyện trên tinh thần vui vẻ hoà đồng với học hỏi lẫn nhau và môn Judo chào đón mọi đối tượng, từ người mới bắt đầu đến người đã có kinh nghiệm trong võ thuật."
+      },
+      "question2": {
+        "title": "Trang phục ngày đầu tiên?",
+        "content": "Trang phục chính thức của Judo gồm áo Judo (hay gi) và quần Judo. Bạn có thể liên hệ trực tiếp fanpage hoặc đến phòng tập để mua võ phục nhé."
+      },
+      "question3": {
+        "title": "Judo có an toàn không?",
+        "content": "Khi được huấn luyện đúng cách và dưới sự giám sát của giáo viên có kinh nghiệm, Judo là một môn võ an toàn. Các kỹ thuật và phương pháp rèn luyện được thiết kế để giảm thiểu nguy cơ chấn thương và bảo vệ sức khỏe của học viên."
+      },
+      "question4": {
+        "title": "Lịch tập của lớp?",
+        "content": "Lớp tụi mình hoạt động mỗi tối thứ 3-5-7 từ 18h30-20h30 hàng tuần bạn nhé. Lớp mình sẽ không hoạt động và thứ 2-4-6, thay vào đó là lịch hoạt động của lớp thầy Đình."
+      }
+    }
+  },
+  "Aboutpage": {
+    "title": "Về chúng tôi",
+    "subtitle": "Đội Ngũ Huấn Luyện Viên",
+    "content": "Nơi kết nối đến đam mê",
+    "coach1": {
+      "name": "Nguyễn Thanh Tài",
+      "position": "Trưởng bộ môn & Huấn Luyện Viên Trưởng",
+      "content": "Võ sư Nguyễn Thanh Tài – HLV trưởng CLB Judo Quân Đội trên cương vị huấn luyện, anh dẫn dắt đội tuyển Judo Quân đội và tuyển Judo Kata Việt Nam giành được rất nhiều thành tích cao, điển hình là giúp đội tuyển Judo Kata Việt Nam giành 1 HCV, 3 HCB và 1 HCĐ tại Giải Vô địch Kata châu Á."
+    },
+    "coach2": {
+      "name": "Thanh Loan",
+      "position": "Huấn Luyện Viên",
+      "content": "Thanh Loan bắt đầu làm quen và tập Judo từ rất sớm nhờ một người thầy có huyền đai môn võ này. Trong giai đoạn thi đấu chuyên nghiệp, cô đã xuất sắc đoạt nhiều thành tích cao và giành được một suất trong đội tuyển quốc gia Việt Nam. Ấn tượng nhất là tấm HCB ở giải đấu quốc tế danh giá là Sea Game 19."
+    },
+    "coach3": {
+      "name": "Trần Nguyễn Nhật Hào",
+      "position": "Huấn Luyện Viên",
+      "content": "Với kinh nghiệm huấn luyện judo tại Câu Lạc Bộ DojoHouse từ cơ bản đến nâng cao và với kinh nghiệm trong suốt quá trình luyện tập và huấn luyện. Mặc dù trẻ tuổi nhưng với tâm huyết và sự nhiệt huyết Hào luôn đồng hành cùng câu lạc bộ, phát triển và truyền lửa cho các thành viên."
+    },
+    "coach4": {
+      "name": "Ngô Nguyễn Thanh Phong",
+      "position": "Học Viên & Admin fanpage",
+      "content": "Một học viên đã theo tập ở võ đường Quân Khu 7 trong khoảng thời gian bằng nửa tuổi đời của bạn. Phong có kinh nghiệm thi đấu nhiều giải lớn nhỏ trong nước và gặt hái nhiều thành tích cao cho đơn vị. Chàng trai trẻ luôn nhiệt huyết trong việc giúp đỡ các bạn mới cũng như quảng bá cho Judo Quân Khu 7."
+    }
+  },
+  "Contactpage": {
+    "title": "Liên hệ",
+    "content": "Bọn mình luôn chào đón những học viên mới đăng kí học tại \n Câu Lạc Bộ Judo Quân Khu 7. \n Hãy cho bọn mình biết nếu bạn có thắc mắc gì nhé ✨",
+    "contact1": {
+      "title": "Địa chỉ",
+      "content": "21 Đào Duy Anh, phường 9, Phú Nhuận"
+    },
+    "contact2": {
+      "title": "Hotline",
+      "content": "(096) 319-3898"
+    },
+    "contact3": {
+      "title": "Email",
+      "content": "JudoQuanKhu7@gmail.com"
+    },
+    "contact4": {
+      "title": "Giờ Mở Cửa",
+      "content": "Thứ 3 - 5 - 7: 18:30 - 20:30"
+    },
+    "ContactForm": {
+      "name": "Họ và tên",
+      "email": "Email",
+      "phone": "Số điện thoại",
+      "message": "Lời nhắn",
+      "button": "Gửi tin nhắn"
+    }
+  }
+}

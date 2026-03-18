@@ -1,7 +1,8 @@
 
 import Image from "next/image";
 import Logo from "../../public/logo.png";
-import Link from "next/link";
+import { Link, usePathname } from "../../i18n/routing";
+import { useTranslations, useLocale } from "next-intl";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
@@ -9,6 +10,9 @@ import "../navbar/navbar.css"
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const handleNav = () => setMenuOpen((v) => !v);
+  const t = useTranslations("Navbar");
+  const locale = useLocale();
+  const pathname = usePathname();
 
   return (
     <nav className="sticky inset-x-0 top-0 h-24 bg-white shadow-xl z-50">
@@ -29,27 +33,27 @@ export default function Navbar() {
           <ul className="flex items-center text-[var(--light-smoke)]">
             <li className="ml-10 text-xl">
               <Link href="/" className="hover:text-[var(--black)]">
-                Trang chủ
+                {t("home")}
               </Link>
             </li>
             <li className="ml-10 text-xl">
               <Link href="/about" className="hover:text-[var(--black)]">
-                Về chúng tôi
+                {t("about")}
               </Link>
             </li>
             <li className="ml-10 text-xl">
               <Link href="/training" className="hover:text-[var(--black)]">
-                Tập Luyện
+                {t("training")}
               </Link>
             </li>
-            {/* <li className="ml-10 text-xl">
-              <Link href="/about" className="hover:text-[var(--black)]">
-                Blog
-              </Link>
-            </li> */}
             <li className="mx-10 text-xl">
               <Link href="/contact" className="hover:text-[var(--black)]">
-                Liên hệ
+                {t("contact")}
+              </Link>
+            </li>
+            <li className="ml-5 text-xl">
+              <Link href={pathname} locale={locale === 'vi' ? 'en' : 'vi'} className="font-bold border px-2 py-1 rounded hover:bg-gray-100">
+                {locale === 'vi' ? 'EN' : 'VI'}
               </Link>
             </li>
           </ul>
@@ -90,22 +94,27 @@ export default function Navbar() {
             <ul className="flex flex-col border-y">
               <li className="py-4">
                 <Link href="/" onClick={handleNav}>
-                  Trang chủ
+                  {t("home")}
                 </Link>
               </li>
               <li className="py-4">
                 <Link href="/about" onClick={handleNav}>
-                  Về chúng tôi
+                  {t("about")}
                 </Link>
               </li>
               <li className="py-4">
                 <Link href="/training" onClick={handleNav}>
-                  Tập luyện
+                  {t("training")}
                 </Link>
               </li>
               <li className="py-4">
                 <Link href="/contact" onClick={handleNav}>
-                  Liên hệ
+                  {t("contact")}
+                </Link>
+              </li>
+              <li className="py-4">
+                <Link href={pathname} locale={locale === 'vi' ? 'en' : 'vi'} onClick={handleNav} className="font-bold border px-2 py-1 rounded w-fit">
+                  {locale === 'vi' ? 'Switch to English' : 'Chuyển sang Tiếng Việt'}
                 </Link>
               </li>
             </ul>

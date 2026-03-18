@@ -1,0 +1,120 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "training": "Training",
+    "contact": "Contact"
+  },
+  "Homepage": {
+    "hero": {
+      "title": "Martial Arts School",
+      "concept": "Inspired by the essence of martial arts, Judo Military Region 7 is an ideal place to connect, learn, and grow through training. With the mission of “Training – Learning – Recreation,” this center is suitable for all ages and skill levels, while adhering to the safety standards of the Vietnam Judo Federation.",
+      "class_content": "Inspired by the essence of martial arts, Judo Military Region 7 is an ideal place to connect, learn, and grow through training. With the mission of “Training – Learning – Recreation,” this center is suitable for all ages and skill levels, while adhering to the safety standards of the Vietnam Judo Federation.",
+      "class_title": "Our Class"
+    },
+    "schedule": {
+      "title": "Schedule",
+      "content": "Our class trains every Tuesday, Thursday, and Saturday from 6:30 PM to 8:30 PM, providing opportunities for everyone to train together."
+    },
+    "fee": {
+      "title": "Tuititon Fee",
+      "content": "Our fee is 500k/month, which includes: \n ☑️ Basic training for beginners. \n ☑️ Training and instruction directly by professional coaches with national coaching qualifications.\n ☑️ Assistant coaches provide enthusiastic support throughout the training session.\n ☑️ Opportunities to participate in competitions and exchanges with opponents from other districts and cities organized by the governing body."
+    },
+    "uniform": {
+      "title": "Uniform",
+      "content": "Uniforms include two types: regular fabric and high-quality textured fabric: \n 💰 Prices range from 300-400k for regular fabric for beginners.\n 💰 Prices range from 800-1.6tr for high-quality textured fabric for advanced practitioners."
+    },
+    "Method": {
+      "title": "Start Training",
+      "content": "When you step into the Judo training hall, you will feel the completeness and convenience that the dojo offers.",
+      "step1": {
+        "title": "Come to the dojo",
+        "content": "Come to the Military Region 7 Judo dojo to visit the training hall and experience a training session.\n📌 The video guide to the entrance is pinned on our Facebook fanpage."
+      },
+      "step2": {
+        "title": "Meet the coach",
+        "content": "Talk to the coach to learn about the activities at the Judo Quân Khu 7 Dojo and the costs involved."
+      },
+      "step3": {
+        "title": "Join the class",
+        "content": "After learning more and feeling that it's a good fit, you can register to join the class immediately."
+      },
+      "step4": {
+        "title": "Like Fanpage",
+        "content": "The final step is especially important ❤️. \n Visit our Facebook Fanpage to follow and not miss any activities at the Military Region 7 Judo Dojo."
+      }
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "content": "Find answers to common questions about the dojo and our training sessions.",
+      "question1": {
+        "title": "Do I need any prior martial arts experience to join the Judo class?",
+        "content": "No prior experience is required. The Military Region 7 Judo class focuses on a friendly and cooperative training spirit, welcoming everyone from beginners to those with existing martial arts experience."
+      },
+      "question2": {
+        "title": "What should I wear on the first day?",
+        "content": "The official Judo uniform consists of a Judo jacket (gi) and Judo pants. You can contact the fanpage directly or visit the dojo to purchase a uniform."
+      },
+      "question3": {
+        "title": "Is Judo safe?",
+        "content": "When trained correctly and under the supervision of experienced instructors, Judo is a safe martial art. The techniques and training methods are designed to minimize the risk of injury and protect the health of the practitioners."
+      },
+      "question4": {
+        "title": "What is the class schedule?",
+        "content": "Our class operates every Tuesday, Thursday, and Saturday from 6:30 PM to 8:30 PM. We do not operate on Mondays, Wednesdays, and Fridays; instead, those days are for Coach Dinh's class schedule."
+      }
+    }
+  },
+  "Aboutpage": {
+    "title": "About Us",
+    "subtitle": "Our Coaches",
+    "content": "A place to connect to passion",
+    "coach1": {
+      "name": "Nguyễn Thanh Tài",
+      "position": "Head Coach",
+      "content": "Master Nguyễn Thanh Tài – Head Coach of the Army Judo Club, in his coaching role, he has led the Army Judo Team and the Vietnam Kata Judo Team to achieve many high honors, most notably helping the Vietnam Kata Judo Team win 1 Gold Medal, 3 Silver Medals, and 1 Bronze Medal at the Asian Kata Championship."
+    },
+    "coach2": {
+      "name": "Thanh Loan",
+      "position": "Coach",
+      "content": "Thanh Loan started learning and practicing Judo at a very early age thanks to a teacher who held a black belt in this martial art. During her professional competition period, she achieved many high honors and earned a spot in the Vietnamese national team. The most impressive achievement was the Silver Medal at the prestigious international tournament, Sea Game 19."
+    },
+    "coach3": {
+      "name": "Trần Nguyễn Nhật Hào",
+      "position": "Coach",
+      "content": "With experience in coaching judo at DojoHouse Club from basic to advanced levels and with experience throughout the training and coaching process. Although young, with dedication and enthusiasm, Hào always accompanies the club, developing and inspiring the members."
+    },
+    "coach4": {
+      "name": "Ngô Nguyễn Thanh Phong",
+      "position": "Student & Fanpage Admin",
+      "content": "A student who has trained at the Military Region 7 Dojo for half of his life. Phong has experience competing in many large and small tournaments across the country and has achieved many high honors for the unit. The young man is always enthusiastic in helping newcomers and promoting the Military Region 7 Judo."
+    }
+  },
+  "Contactpage": {
+    "title": "Contact",
+    "content": "We always welcome new students registering to train at the \n Judo Quan Khu 7. \n Please let us know if you have any questions ✨",
+    "contact1": {
+      "title": "Address",
+      "content": "21 Dao Duy Anh, Ward 9, Phu Nhuan District"
+    },
+    "contact2": {
+      "title": "Hotline",
+      "content": "(096) 319-3898"
+    },
+    "contact3": {
+      "title": "Email",
+      "content": "JudoQuanKhu7@gmail.com"
+    },
+    "contact4": {
+      "title": "Opening Hours",
+      "content": "Tuesday - Thursday - Saturday: 6:30 PM - 8:30 PM"
+    },
+    "ContactForm": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "button": "Send Message"
+    }
+  }
+}

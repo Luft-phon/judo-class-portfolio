@@ -1,5 +1,6 @@
 import { useState, ChangeEvent, FormEvent } from "react";
 import "./contact.css";
+import { useTranslations } from "next-intl";
 
 interface FormData {
   fullname: string;
@@ -9,6 +10,7 @@ interface FormData {
 }
 
 function ContactForm() {
+  const t = useTranslations("Contactpage.ContactForm");
   const [formData, setFormData] = useState<FormData>({
     fullname: "",
     email: "",
@@ -48,7 +50,7 @@ function ContactForm() {
   return (
     <form className="booking-form" onSubmit={handleSubmit}>
       <div className="form-group">
-        <label style={{ color: "var(--black)" }}>Họ tên</label>
+        <label style={{ color: "var(--black)" }}>{t("name")}</label>
         <input
           type="text"
           name="fullname"
@@ -59,7 +61,7 @@ function ContactForm() {
         />
       </div>
       <div className="form-group">
-        <label style={{ color: "var(--black)" }}>Email</label>
+        <label style={{ color: "var(--black)" }}>{t("email")}</label>
         <input
           type="email"
           name="email"
@@ -70,7 +72,7 @@ function ContactForm() {
         />
       </div>
       <div className="form-group">
-        <label style={{ color: "var(--black)" }}>Số điện thoại</label>
+        <label style={{ color: "var(--black)" }}>{t("phone")}</label>
         <input
           type="tel"
           name="phone"
@@ -81,7 +83,7 @@ function ContactForm() {
         />
       </div>
       <div className="form-group">
-        <label style={{ color: "var(--black)" }}>Lời nhắn</label>
+        <label style={{ color: "var(--black)" }}>{t("message")}</label>
         <textarea
           name="message"
           placeholder="Mô tả ..."
@@ -91,7 +93,7 @@ function ContactForm() {
           onChange={handleChange}
         ></textarea>
       </div>
-      <button type="submit">Submit</button>
+      <button type="submit">{t("button")}</button>
     </form>
   );
 }
