@@ -2,7 +2,7 @@
 import ChatBot from "@/component/chatbox/Chatbot";
 import Footer from "@/component/footer/Footer";
 import Navbar from "@/component/navbar/Navbar";
-import TrainingPage from "@/pages/training/TrainingPage";
+import TrainingPage from "@/views/training/TrainingPage";
 
 
 export default function Training() {

@@ -1,7 +1,7 @@
 "use client";
 import Footer from "@/component/footer/Footer";
 import Navbar from "@/component/navbar/Navbar";
-import AboutPage from "@/pages/about-us/About";
+import AboutPage from "@/views/about-us/About";
 
 
 export default function About() {

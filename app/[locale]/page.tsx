@@ -2,7 +2,7 @@
 import ChatBot from "@/component/chatbox/Chatbot";
 import Footer from "@/component/footer/Footer";
 import Navbar from "@/component/navbar/Navbar";
-import HomePage from "@/pages/home/HomePage";
+import HomePage from "@/views/home/HomePage";
 
 
 export default function Home() {

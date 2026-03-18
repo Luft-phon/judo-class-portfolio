@@ -2,7 +2,7 @@
 
 import Footer from "@/component/footer/Footer"
 import Navbar from "@/component/navbar/Navbar"
-import ContactPage from "@/pages/contact/ContactPage";
+import ContactPage from "@/views/contact/ContactPage";
 
 export default function Contact() {
 
