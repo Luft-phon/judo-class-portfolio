@@ -1,6 +1,6 @@
 import AboutUsCard from "@/component/cards/about-us/AboutUsCard";
 import "../about-us/about.css";
-import ChatBot from "@/component/chatbox/Chatbot";
+// import ChatBot from "@/component/chatbox/Chatbot";
 import { useTranslations } from "next-intl";
 export default function AboutPage() {
     const t = useTranslations("Aboutpage");
@@ -42,7 +42,7 @@ export default function AboutPage() {
                     return <AboutUsCard about={coach} key={coach.name} />;
                 })}
             </div>
-            <ChatBot />
+            {/* <ChatBot /> */}
 
         </div>
     );
