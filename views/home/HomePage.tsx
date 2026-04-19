@@ -11,6 +11,8 @@ import { FaMessage } from "react-icons/fa6";
 import { FaRocket, FaStar, FaUserFriends } from "react-icons/fa";
 import { AccordionFaqs } from "@/component/accordion/Faqs";
 import { useTranslations } from "next-intl";
+import { ReviewsCarousel } from "@/component/reviews/ReviewsCarousel";
+
 export default function HomePage() {
   const photo = [
     { value: "activities/10.jpg" },
@@ -182,8 +184,9 @@ export default function HomePage() {
           {/*  */}
         </section>
 
-        <section>
+        <section id="reviews">
           {/* khách hàng đánh giá */}
+          <ReviewsCarousel />
         </section>
         <section id="faqs">
           {/* câu hỏi thường gặp  */}

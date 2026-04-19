@@ -63,6 +63,27 @@
         "title": "Lịch tập của lớp?",
         "content": "Lớp tụi mình hoạt động mỗi tối thứ 3-5-7 từ 18h30-20h30 hàng tuần bạn nhé. Lớp mình sẽ không hoạt động và thứ 2-4-6, thay vào đó là lịch hoạt động của lớp thầy Đình."
       }
+    },
+    "reviews": {
+      "title": "Đánh giá từ võ sinh",
+      "subtitle": "Đừng chỉ nghe chúng tôi nói - hãy nghe từ những học viên.",
+      "items": {
+        "0": {
+          "name": "Thanh Phong",
+          "location": "Hồ Chí Minh",
+          "content": "Tham gia lớp judo này là một trong những quyết định tốt nhất của tôi. Các HLV cực kỳ kiên nhẫn. Tôi cảm thấy mạnh mẽ và tự tin hơn sau mỗi buổi!"
+        },
+        "1": {
+          "name": "Phúc Trần",
+          "location": "Hồ Chí Minh",
+          "content": "Chương trình tập luyện rất bài bản. Tôi thích cách phòng tập chú trọng vào an toàn, kỹ thuật. HLV thực sự quan tâm đến sự tiến bộ của mọi người."
+        },
+        "2": {
+          "name": "Kiyoshi Tai",
+          "location": "Japan",
+          "content": "Cơ sở vật chất tuyệt vời và một cộng đồng thân thiện. Dù bạn là người mới hay đã có kinh nghiệm, luôn có điều mới để học tại đây. Rất đáng để tham gia!"
+        }
+      }
     }
   },
   "Aboutpage": {

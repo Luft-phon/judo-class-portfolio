@@ -63,6 +63,27 @@
         "title": "What is the class schedule?",
         "content": "Our class operates every Tuesday, Thursday, and Saturday from 6:30 PM to 8:30 PM. We do not operate on Mondays, Wednesdays, and Fridays; instead, those days are for Coach Dinh's class schedule."
       }
+    },
+    "reviews": {
+      "title": "Client Reviews",
+      "subtitle": "DON'T JUST TAKE OUR WORD FOR IT - HEAR FROM OUR SATISFIED CLIENTS.",
+      "items": {
+        "0": {
+          "name": "Alex N.",
+          "location": "Ho Chi Minh City",
+          "content": "Joining this judo class was one of the best decisions I've made. The instructors are incredibly patient and skilled. I feel stronger and more confident after every session!"
+        },
+        "1": {
+          "name": "Minh Tuấn",
+          "location": "District 3",
+          "content": "Great facilities and a very welcoming community. Whether you're a beginner or advanced, there's always something new to learn here. Highly recommended for everyone!"
+        },
+        "2": {
+          "name": "Lan Anh",
+          "location": "Phu Nhuan District",
+          "content": "The training is rigorous but extremely rewarding. I appreciate the focus on safety and proper technique. The coaches really care about the progress of each student."
+        }
+      }
     }
   },
   "Aboutpage": {
