@@ -10,7 +10,8 @@
       "title": "Martial Arts School",
       "concept": "Inspired by the essence of martial arts, Judo Military Region 7 is an ideal place to connect, learn, and grow through training. With the mission of “Training – Learning – Recreation,” this center is suitable for all ages and skill levels, while adhering to the safety standards of the Vietnam Judo Federation.",
       "class_content": "Inspired by the essence of martial arts, Judo Military Region 7 is an ideal place to connect, learn, and grow through training. With the mission of “Training – Learning – Recreation,” this center is suitable for all ages and skill levels, while adhering to the safety standards of the Vietnam Judo Federation.",
-      "class_title": "Our Class"
+      "class_title": "Our Class",
+      "cta": "Join Us Now"
     },
     "schedule": {
       "title": "Schedule",
@@ -66,7 +67,7 @@
     },
     "reviews": {
       "title": "Client Reviews",
-      "subtitle": "DON'T JUST TAKE OUR WORD FOR IT - HEAR FROM OUR SATISFIED CLIENTS.",
+      "subtitle": "Don't just take our word for it - hear from our satisfied clients.",
       "items": {
         "0": {
           "name": "Thanh Phong",
@@ -84,6 +85,11 @@
           "content": "The training is rigorous but extremely rewarding. I appreciate the focus on safety and proper technique. The coaches really care about the progress of each student."
         }
       }
+    },
+    "footer_cta": {
+      "title": "Ready to start your journey?",
+      "content": "Join Judo Military Region 7 today and transform your body and mind. Your first session is waiting for you!",
+      "button": "Register Now"
     }
   },
   "Aboutpage": {

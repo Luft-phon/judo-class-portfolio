@@ -10,7 +10,8 @@
       "title": "Câu lạc bộ Judo Quân Khu 7",
       "concept": "Lấy cảm hứng từ tinh hoa của võ thuật, Judo Quân Khu 7 là một điểm đến tuyệt vời để gặp gỡ, học hỏi thông qua võ thuật. Với sứ mệnh 'Rèn Luyện - Học Tập - Giải Trí', địa điểm này không chỉ phù hợp với mọi độ tuổi và trình độ tập luyện mà còn tuân thủ các tiêu chuẩn an toàn của Liên Đoàn Judo Việt Nam.",
       "class_content": "Lấy cảm hứng từ tinh hoa của võ thuật, Judo Quân Khu 7 là một điểm đến tuyệt vời để gặp gỡ, học hỏi thông qua võ thuật. Với sứ mệnh 'Rèn Luyện - Học Tập - Giải Trí', địa điểm này không chỉ phù hợp với mọi độ tuổi và trình độ tập luyện mà còn tuân thủ các tiêu chuẩn an toàn của Liên Đoàn Judo Việt Nam.",
-      "class_title": "Lớp Chúng Tôi"
+      "class_title": "Lớp học của chúng tôi",
+      "cta": "Tham gia ngay"
     },
     "schedule": {
       "title": "Lịch tập",
@@ -84,6 +85,11 @@
           "content": "Cơ sở vật chất tuyệt vời và một cộng đồng thân thiện. Dù bạn là người mới hay đã có kinh nghiệm, luôn có điều mới để học tại đây. Rất đáng để tham gia!"
         }
       }
+    },
+    "footer_cta": {
+      "title": "Bạn đã sẵn sàng ?",
+      "content": "Gia nhập Judo Quân Khu 7 ngay hôm nay để rèn luyện thân thể và tinh thần. Buổi tập đầu tiên đang chờ đón bạn!",
+      "button": "Đăng ký ngay"
     }
   },
   "Aboutpage": {

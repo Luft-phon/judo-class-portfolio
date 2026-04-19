@@ -12,6 +12,7 @@ import { FaRocket, FaStar, FaUserFriends } from "react-icons/fa";
 import { AccordionFaqs } from "@/component/accordion/Faqs";
 import { useTranslations } from "next-intl";
 import { ReviewsCarousel } from "@/component/reviews/ReviewsCarousel";
+import { Link } from "@/i18n/routing";
 
 export default function HomePage() {
   const photo = [
@@ -40,6 +41,15 @@ export default function HomePage() {
 
             <div className="content">
               <p>{t("hero.concept")}</p>
+            </div>
+
+            <div className="mt-8">
+              <Link
+                href="/contact"
+                className="inline-block bg-[var(--blue)] text-white px-10 py-4 rounded-full font-heading text-lg uppercase tracking-widest hover:bg-black transition-all shadow-xl hover:scale-105 active:scale-95"
+              >
+                {t("hero.cta")}
+              </Link>
             </div>
           </Fade>
         </section>
@@ -188,6 +198,33 @@ export default function HomePage() {
           {/* khách hàng đánh giá */}
           <ReviewsCarousel />
         </section>
+
+        {/* CTA Section */}
+        <section className="relative py-28 text-white text-center overflow-hidden">
+          <Image
+            src="/activities/20.jpg"
+            alt="Join Us Background"
+            fill
+            className="object-cover"
+          />
+          <div className="absolute inset-0 bg-[#00438A]/80 shadow-[inset_0_0_150px_rgba(0,0,0,0.5)]" />
+
+          <div className="relative max-w-4xl mx-auto px-4 z-10">
+            <h2 className="text-4xl md:text-5xl font-heading mb-6 uppercase tracking-tight">
+              {t("footer_cta.title")}
+            </h2>
+            <p className="text-lg md:text-xl font-content mb-10 opacity-90 leading-relaxed">
+              {t("footer_cta.content")}
+            </p>
+            <a
+              href="https://www.facebook.com/JudoQuanKhu7/"
+              className="inline-block bg-white text-[var(--blue)] px-12 py-5 rounded-full font-heading text-xl uppercase tracking-widest hover:bg-[#FFD327] hover:text-black transition-all shadow-2xl hover:scale-110 active:scale-95"
+            >
+              {t("footer_cta.button")}
+            </a>
+          </div>
+        </section>
+
         <section id="faqs">
           {/* câu hỏi thường gặp  */}
           <div className="getting-started-title">
@@ -206,6 +243,8 @@ export default function HomePage() {
             className="border-1 border-black rounded-lg"
           />
         </section>
+
+
       </main>
     </>
   );
