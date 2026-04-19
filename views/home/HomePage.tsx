@@ -44,12 +44,12 @@ export default function HomePage() {
             </div>
 
             <div className="mt-8">
-              <Link
-                href="/contact"
+              <a
+                href="https://www.facebook.com/JudoQuanKhu7/"
                 className="inline-block bg-[var(--blue)] text-white px-10 py-4 rounded-full font-heading text-lg uppercase tracking-widest hover:bg-black transition-all shadow-xl hover:scale-105 active:scale-95"
               >
                 {t("hero.cta")}
-              </Link>
+              </a>
             </div>
           </Fade>
         </section>
