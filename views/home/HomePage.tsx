@@ -42,7 +42,6 @@ export default function HomePage() {
             <div className="content">
               <p>{t("hero.concept")}</p>
             </div>
-
             <div className="mt-8">
               <a
                 href="https://www.facebook.com/JudoQuanKhu7/"

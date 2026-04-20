@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/next';
 import Preloader from "../../component/preloader/Preloader";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 // Khai báo font
 const poppins = Poppins({
   subsets: ["latin"],
@@ -63,6 +64,7 @@ export default async function RootLayout({
           <Preloader />
           {children}
           <Analytics />
+          <SpeedInsights />
         </NextIntlClientProvider>
       </body>
     </html>
