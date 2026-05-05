@@ -19,7 +19,7 @@ export default function Preloader() {
     // Xử lý hiệu ứng fade out cho toàn bộ preloader
     const preloaderTimeout = setTimeout(() => {
       setFadePreloader(true);
-    }, 2000); // thay đổi thời gian này để tăng/giảm thời gian hiển thị intro
+    }, 1000); // thay đổi thời gian này để tăng/giảm thời gian hiển thị intro
 
     // Gỡ khỏi DOM hoàn toàn
     const removeTimeout = setTimeout(() => {
