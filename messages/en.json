@@ -136,6 +136,9 @@
       "title": "Opening Hours",
       "content": "Tuesday - Thursday - Saturday: 6:30 PM - 8:30 PM"
     },
+    "contact5": {
+      "content": "Inbox in Messenger"
+    },
     "ContactForm": {
       "name": "Full Name",
       "email": "Email",

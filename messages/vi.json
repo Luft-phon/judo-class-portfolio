@@ -136,6 +136,9 @@
       "title": "Giờ Mở Cửa",
       "content": "Thứ 3 - 5 - 7: 18:30 - 20:30"
     },
+    "contact5": {
+      "content": "Nhắn tin Messenger"
+    },
     "ContactForm": {
       "name": "Họ và tên",
       "email": "Email",
