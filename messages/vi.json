@@ -146,5 +146,20 @@
       "message": "Lời nhắn",
       "button": "Gửi tin nhắn"
     }
+  },
+  "Footer": {
+    "content": "Với sứ mệnh 'Rèn Luyện - Học Tập - Giải Trí', địa điểm này không chỉ phù hợp với mọi độ tuổi và trình độ tập luyện mà còn tuân thủ các tiêu chuẩn an toàn của Liên Đoàn Judo Việt Nam.",
+    "nav": {
+      "home": "Trang chủ",
+      "about": "Về chúng tôi",
+      "coaching": "Huấn luyện",
+      "blog": "Blog"
+    },
+    "info": {
+      "title": "Thông tin"
+    },
+    "hour": {
+      "title": "Giờ mở cửa"
+    }
   }
 }

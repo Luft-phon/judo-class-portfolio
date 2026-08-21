@@ -12,7 +12,6 @@ import { FaRocket, FaStar, FaUserFriends } from "react-icons/fa";
 import { AccordionFaqs } from "@/component/accordion/Faqs";
 import { useTranslations } from "next-intl";
 import { ReviewsCarousel } from "@/component/reviews/ReviewsCarousel";
-import { Link } from "@/i18n/routing";
 
 export default function HomePage() {
   const photo = [

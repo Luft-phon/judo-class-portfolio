@@ -146,5 +146,20 @@
       "message": "Message",
       "button": "Send Message"
     }
+  }, 
+  "Footer": {
+    "content": "With the mission of “Training – Learning – Recreation,” this center is suitable for all ages and skill levels, while adhering to the safety standards of the Vietnam Judo Federation.",
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "coaching": "Coaching",
+      "blog": "Blog"
+    },
+    "info": {
+      "title": "Information"
+    },
+    "hour": {
+      "title": "Opening Hours"
+    }
   }
 }
