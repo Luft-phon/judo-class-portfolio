@@ -31,3 +31,5 @@ jobs:           # khai báo các công việc mà CI sẽ thực hiện
 
       - name: Build application
         run: npm run build
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
