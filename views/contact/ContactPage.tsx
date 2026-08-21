@@ -1,7 +1,6 @@
 
-import ContactForm from "@/component/contact/Contact"
 import ContactItem from "@/component/contact/ContactItem";
-import { FaClock, FaEnvelope, FaMapMarkerAlt, FaPhoneAlt, FaFacebookMessenger } from "react-icons/fa";
+import { FaClock, FaMapMarkerAlt, FaPhoneAlt, FaFacebookMessenger } from "react-icons/fa";
 import "../contact/contact.css"
 import { useTranslations } from "next-intl";
 export default function ContactPage() {
@@ -30,7 +29,6 @@ export default function ContactPage() {
                     </a>
 
                 </div>
-                {/* <ContactForm /> */}
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.080208494933!2d106.6733025748053!3d10.80516878934538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529006057d451%3A0xf2de4555dc834b38!2sJudo%20Qu%C3%A2n%20Khu%207!5e0!3m2!1sen!2sus!4v1756873226762!5m2!1sen!2sus"
                     className="iframe" loading="lazy"></iframe>
             </div>

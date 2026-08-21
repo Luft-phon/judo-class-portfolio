@@ -4,7 +4,9 @@ import { useEffect } from "react";
 // Khai báo global cho class bên ngoài (do script chèn vào window)
 declare global {
   interface Window {
-    TuDongChat: any;
+    TuDongChat: new (id: string) => {
+      initial: () => void;
+    };
   }
 }
 

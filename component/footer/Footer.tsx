@@ -3,9 +3,11 @@ import "../footer/footer.css"
 import { Link } from "../../i18n/routing";
 import Image from "next/image"
 import Logo from "../../public/logo.png";
+import { useTranslations } from "next-intl";
 
 function Footer() {
     const year = new Date().getFullYear();
+    const t = useTranslations("Footer");
     return (
         <div className="footer">
             <div className="footer-info">
@@ -23,38 +25,38 @@ function Footer() {
                         </Link>
                     </div>
                     <div className="footer-info-content">
-                        <p>Với sứ mệnh "Rèn Luyện - Học Tập - Giải Trí", địa điểm này không chỉ phù hợp với mọi độ tuổi và trình độ tập luyện mà còn tuân thủ các tiêu chuẩn an toàn của Liên Đoàn Judo Việt Nam.</p>
+                        <p>{t("content")}</p>
                     </div>
                 </div>
                 <div className="footer-info-nav">
-                    <div className="footer-info-title"><h3>Trang chủ</h3></div>
+                    <div className="footer-info-title"><h3>{t("nav.home")}</h3></div>
                     <div className="footer-info-content">
                         <ul>
                             <li>
                                 <Link href="./" className="flex items-center gap-2 group"><FaArrowRight className="hidden group-hover:flex"/>
-                                 Trang chủ
+                                 {t("nav.home")}
                                  </Link>
                             </li>
                             <li>
                                 <Link href="./" className="flex items-center gap-2 group"><FaArrowRight className="hidden group-hover:flex"/>
-                                 Về chúng tôi
+                                 {t("nav.about")}
                                  </Link>
                             </li>
                             <li>
                                 <Link href="./" className="flex items-center gap-2 group"><FaArrowRight className="hidden group-hover:flex"/>
-                                 Huấn Luyện
+                                 {t("nav.coaching")}
                                  </Link>
                             </li>
                             <li>
                                 <Link href="./" className="flex items-center gap-2 group"><FaArrowRight className="hidden group-hover:flex"/>
-                                 Blog
+                                 {t("nav.blog")}
                                  </Link>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div className="footer-info-information">
-                    <div className="footer-info-title"><h3>Thông tin</h3></div>
+                    <div className="footer-info-title"><h3>{t("info.title")}</h3></div>
                     <div className="footer-info-content">
                         <ul>
                             <li><a href="tel:0963193898">+8496 319 38 98</a></li>
@@ -64,7 +66,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="footer-info-hour">
-                    <div className="footer-info-title"><h3>Giờ Mở Cửa</h3></div>
+                    <div className="footer-info-title"><h3>{t("hour.title")}</h3></div>
                     <div className="footer-info-content">
                         <ul>
                             <li>Thứ 3 - 5 -7: 18:30 - 20:00</li>
