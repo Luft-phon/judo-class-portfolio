@@ -1,0 +1,33 @@
+name: CI          #tên sẽ hiện trong Github Actions
+
+on:               #khai báo khi nào workflow sẽ chạy
+  push:           # TH1: khi push code lên nhánh main
+    branches:
+      - main
+
+  pull_request:               # TH2: 
+    branches:
+      - main
+
+jobs:           # khai báo các công việc mà CI sẽ thực hiện
+  build:        # tên của công việc, có thể đặt tên khác nhưng nên đặt tên dễ hiểu
+    runs-on: ubuntu-latest              # Github Actions sẽ chạy công việc này trên môi trường Ubuntu mới nhất    
+
+    steps:
+      - name: Checkout source code        #lấy source code từ repository về ubuntu
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      # vì đây là react, next.js nên command là giống z                            
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run lint
+        run: npm run lint
+
+      - name: Build application
+        run: npm run build
